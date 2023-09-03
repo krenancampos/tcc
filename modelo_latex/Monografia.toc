@@ -1,0 +1,33 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{Resumo}{i}{Doc-Start}%
+\contentsline {chapter}{Agradecimentos}{iii}{Doc-Start}%
+\contentsline {chapter}{Lista de Figuras}{vii}{chapter*.2}%
+\contentsline {chapter}{Lista de Tabelas}{ix}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motiva\c c\~ao e Justificativa}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos do Projeto}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Local de Realiza\c c\~ao}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Estrutura da Monografia}{3}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Descri\c c\~ao do Processo}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Processo de Fazer Alguma Coisa}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Instrumenta\c c\~ao do Processo}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Resumo do Cap\IeC {\'\i }tulo}{5}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Metodologia e Revis\~ao Bibliogr\'afica}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Blind Source Separation e An\'alise de Componentes Independentes}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}M\'ascaras Espectrais}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Modelagem Fonte-Filtro}{9}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Fatora\c c\~ao e Co-Fatora\c c\~ao de Matrizes N\~ao-Negativas}{9}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Redes Neurais Artificias}{10}{section.3.5}%
+\contentsline {section}{\numberline {3.6}T\'ecnica 1}{10}{section.3.6}%
+\contentsline {section}{\numberline {3.7}T\'ecnica 2}{11}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Resumo do Cap\IeC {\'\i }tulo}{11}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Resultados}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Atividades do Projeto}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Requisitos do Sistema}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Desenvolvimeto e Implementa\c c\~ao}{13}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Testes}{13}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Resumo do Cap\IeC {\'\i }tulo}{13}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Conclus\~oes}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Considera\c c\~oes Finais}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Propostas de Continuidade}{17}{section.5.2}%
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{18}{section.5.2}%
