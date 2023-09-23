@@ -6,9 +6,9 @@ Neste capítulo, você deve apresentar uma breve revisão bibliográfica sobre as té
 Ao longo do tempo, diversas técnicas e abordagens foram desenvolvidas e aplicadas ao problema de ASS, levando a diferentes linhas de pesquisa em que todas têm em comum a aplicação em maior ou menor grau de conceitos e ferramentas de processamento de sinais, modelagem de fontes de áudio como fonte-filtro, álgebra linear, probabilidade e estatística \cite{rafii18}. Além disso, sinais de áudio multicanais (como áudio estéreo, surround 5.1, surround 7.1) demandam técnicas diferentes daquelas utilizadas em sinais que possuem apenas um canal (áudio mono), contribuindo ainda mais para a diversidade de linhas de pesquisa.
 
 \section{Blind Source Separation e Análise de Componentes Independentes}
-Historicamente, as primeiras abordagens para tratar o problema partiram de simplificações da teoria de sinais e sistemas dinâmicos lineares em que a partir de um número conhecido F de fontes e um número conhecido S de sensores (microfones), os sinais captados por cada microfone no domínio do tempo poderiam ser representados a partir da convolução entre o sinal de cada fonte e a resposta ao impulso do sistema composto pela agregação dos efeitos de propagação e interferência agindo entre cada fonte e o sinal captado pelo sensor (como a reverberação do ambiente de gravação, interferências de outras fontes, filtros dos circuitos eletrônicos dos sensores, etc.). Como pode-se notar, ainda que simplificações na forma da premissa de o número de fontes ser conhecido e o fato deste tipo de modelo de respostas ao impulso considerar que as fontes são pontuais e estacionárias [7], a identificação e modelagem do sistema dinâmico através das respostas ao impulso não é uma tarefa trivial e geralmente sequer possível, portanto, foram necessárias simplificações adicionais deste problema como a consideração da escassez de informação sobre as fontes e sobre o processo de mistura no que é conhecido na literatura como Blind Source Separation (BSS) [8] e [9], na qual a técnica de Análise de Componentes Independentes (Independent Component Analysis - ICA) é uma das mais exploradas até hoje. 
+Historicamente, as primeiras abordagens para tratar o problema partiram de simplificações da teoria de sinais e sistemas dinâmicos lineares em que a partir de um número conhecido F de fontes e um número conhecido S de sensores (microfones), os sinais captados por cada microfone no domínio do tempo poderiam ser representados a partir da convolução entre o sinal de cada fonte e a resposta ao impulso do sistema composto pela agregação dos efeitos de propagação e interferência agindo entre cada fonte e o sinal captado pelo sensor (como a reverberação do ambiente de gravação, interferências de outras fontes, filtros dos circuitos eletrônicos dos sensores, etc.). Como pode-se notar, ainda que simplificações na forma da premissa de o número de fontes ser conhecido e o fato deste tipo de modelo de respostas ao impulso considerar que as fontes são pontuais e estacionárias \cite{vincent7}, a identificação e modelagem do sistema dinâmico através das respostas ao impulso não é uma tarefa trivial e geralmente sequer possível, portanto, foram necessárias simplificações adicionais deste problema como a consideração da escassez de informação sobre as fontes e sobre o processo de mistura no que é conhecido na literatura como Blind Source Separation (BSS) \cite{common8} e \cite{naik9}, na qual a técnica de Análise de Componentes Independentes (Independent Component Analysis - ICA) é uma das mais exploradas até hoje. 
 
-A ICA faz uma série de suposições simplificadoras, dentre elas que as fontes são estatisticamente independentes, que a mistura pode ser modelada como uma simples combinação linear dos sinais da fonte (ou seja, a mistura é apenas instantânea e efeitos de convolução não são modelados), além de que a solução do sistema linear formado pode ser obtida apenas quando há um número de microfones igual ou maior do que o número de fontes (S >= F). A formalização matemática da ICA assim como melhorias do método visando resolver as limitações de número de fontes, efeitos de convolução e não-linearidades do processo de mistura são exploradas em [10] dado que os sinais de áudio de forma geral não atendem às restrições impostas pela técnica, por exemplo o fato da maioria ser no formato mono ou estéreo e possuir mais do que duas fontes sonoras.
+A ICA faz uma série de suposições simplificadoras, dentre elas que as fontes são estatisticamente independentes, que a mistura pode ser modelada como uma simples combinação linear dos sinais da fonte (ou seja, a mistura é apenas instantânea e efeitos de convolução não são modelados), além de que a solução do sistema linear formado pode ser obtida apenas quando há um número de microfones igual ou maior do que o número de fontes (S >= F). A formalização matemática da ICA assim como melhorias do método visando resolver as limitações de número de fontes, efeitos de convolução e não-linearidades do processo de mistura são exploradas em \cite{hyv10} dado que os sinais de áudio de forma geral não atendem às restrições impostas pela técnica, por exemplo o fato da maioria ser no formato mono ou estéreo e possuir mais do que duas fontes sonoras.
 
 \section{Máscaras Espectrais}
 Outra abordagem derivada diretamente da teoria de processamento de sinais consiste na filtragem do sinal misturado, isto é, realizar uma espécie de equalização na mistura atenuando ou amplificando determinadas frequências assumindo que diferentes fontes apresentam características e regiões espectrais diferentes, porém, como o sinal de áudio muda ao longo do tempo, é necessário que esta equalização também mude de forma correspondente, portanto, de forma a obter este efeito, utilizam-se máscaras espectrais que consistem em filtros cujas características são variantes no tempo [11], portanto, as máscaras espectrais operam tanto no domínio da frequência quanto no domínio do tempo simultaneamente, logo, sua aplicação se dá numa representação Tempo-Frequência do sinal como o espectrograma do sinal misturado. Uma breve explicação do espectrograma é feita no capítulo de fundamentos teóricos.
@@ -42,55 +42,53 @@ Os trabalhos mais recentes buscam associar redes neurais profundas com técnicas 
 Os problemas associados com o emprego de redes neurais são o custo computacional no treinamento dos algoritmos e a necessidade de uma grande base de dados para treinamento, além da dificuldade de interpretação dos milhares de parâmetros dos modelos que estas redes geram [6].
 
 
-\section{Técnica 1}
-\markright{\thesection ~~~ Metodologia}
-\label{metodo}
+%\section{Técnica 1}
+%\markright{\thesection ~~~ Metodologia}
+%\label{metodo}
 
-Aqui você encontra um exemplo de inserção de figura. Veja o arquivo DescricaoProjeto.tex para ver os comandos.
-\begin{figure}[!htbp]
-	\centering		
-	\includegraphics[bb =0 0 264  221]{Resultados/Figuras/ciclodesenvolvimento.eps}
-	\caption{figuara teste}
-	\label{fig:ciclodesenvolvimento}
-\end{figure}
+%Aqui você encontra um exemplo de inserção de figura. Veja o arquivo DescricaoProjeto.tex para ver os comandos.
+%\begin{figure}[!htbp]
+%	\centering		
+%	\includegraphics[bb =0 0 264  221]{Resultados/Figuras/ciclodesenvolvimento.eps}
+%	\caption{figuara teste}
+%	\label{fig:ciclodesenvolvimento}
+%\end{figure}
 
-A figura \ref{fig:ciclodesenvolvimento} tal aparece.
+%A figura \ref{fig:ciclodesenvolvimento} tal aparece.
 
-\begin{table}
-	\centering
-		\begin{tabular}{c|c}
-			1 & 2 \\
-			1 & 2 \\
-			1 & 2 \\
-			1 & 2 \\
-			1 & 2 \\			
-		\end{tabular}
-\end{table}
+%\begin{table}
+	%\centering
+	%	\begin{tabular}{c|c}
+	%		1 & 2 \\
+	%		1 & 2 \\
+	%		1 & 2 \\
+	%		1 & 2 \\
+	%		1 & 2 \\			
+	%	\end{tabular}
+%\end{table}
 
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=1.2]{Metodologia/Figuras/ciclodesenvolvimento.eps}
-\caption{Ciclo de desenvolvimento de um projeto.}
-\label{CicloDesenvolvimento1}
-\end{figure}
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[scale=1.2]{Metodologia/Figuras/ciclodesenvolvimento.eps}
+%\caption{Ciclo de desenvolvimento de um projeto.}
+%\label{CicloDesenvolvimento1}
+%\end{figure}
 
-Para referenciar a Figura \ref{CicloDesenvolvimento1}, veja arquivo .tex.
+%Para referenciar a Figura \ref{CicloDesenvolvimento1}, veja arquivo .tex.
 
-\begin{equation}\label{eq:forca}
-	f=ma
-\end{equation}
+%\begin{equation}\label{eq:forca}
+%	f=ma
+%\end{equation}
 
-A equação \ref{eq:forca}
-\section{Técnica 2}
-\markright{\thesection ~~~ Metodologia}
-\label{metodo1a}
+%A equação \ref{eq:forca}
+%\section{Técnica 2}
+%\markright{\thesection ~~~ Metodologia}
+%\label{metodo1a}
 
 \section{Resumo do Capítulo}
-\markright{\thesection ~~~ Metodologia}
-\label{metodo1b}
-
-
-
+%\markright{\thesection ~~~ Metodologia}
+%\label{metodo1b}
+Neste capítulo foram apresentadas as diversas técnicas aplicadas ao problema de separação de fontes de áudio ao longo do tempo, chegando mais recentemente nas técnicas de aprendizado profundo com redes neurais que apresentam os melhores resultados em comparação às técnicas clássicas baseadas apenas nas ferramentas de processamento de sinais.
 
 \clearpage
