@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.30)  3 SEP 2023 00:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.22)  22 SEP 2023 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -366,9 +366,8 @@ File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 ) (Monografia.aux (Capa/capa.aux) (Resumo/Resumo.aux)
 (Agradecimentos/Agradecimentos.aux) (TabelaConteudo/TabelaConteudo.aux)
 (ListaFiguras/ListaFiguras.aux) (ListaTabelas/ListaTabelas.aux)
-(Introducao/Introducao.aux) (DescricaoProcesso/DescricaoProcesso.aux)
-(Metodologia/Metodologia.aux) (Resultados/Resultados.aux)
-(Conclusao/Conclusao.aux))
+(Introducao/Introducao.aux) (Metodologia/Metodologia.aux)
+(Resultados/Resultados.aux) (Conclusao/Conclusao.aux))
 \openout1 = `Monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -508,30 +507,30 @@ l.55 \end{titlepage}
 \openout2 = `TabelaConteudo/TabelaConteudo.aux'.
 
  (TabelaConteudo/TabelaConteudo.tex
-(Monografia.toc [5
+(Monografia.toc)
+\tf@toc=\write5
+\openout5 = `Monografia.toc'.
+
+ [5
 
 
 
 
 ])
-\tf@toc=\write5
-\openout5 = `Monografia.toc'.
-
- [6])
 \openout2 = `ListaFiguras/ListaFiguras.aux'.
 
- (ListaFiguras/ListaFiguras.tex (Monografia.lof)
+ (ListaFiguras/ListaFiguras.tex [6
+
+
+
+
+
+] (Monografia.lof)
 \tf@lof=\write6
 \openout6 = `Monografia.lof'.
 
 
-[7
-
-
-
-
-
-])
+[7])
 \openout2 = `ListaTabelas/ListaTabelas.aux'.
 
  (ListaTabelas/ListaTabelas.tex [8
@@ -555,7 +554,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 
+l.17 
       [1
 
 
@@ -563,102 +562,27 @@ l.27
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-0.
-
-(C:\Users\kayke\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 A
-       opção pelo estudo com participantes se dá pelo fato do ser humano ser...
-[2] [3])
-\openout2 = `DescricaoProcesso/DescricaoProcesso.aux'.
-
- (DescricaoProcesso/DescricaoProcesso.tex [4
-
-
-
-
-
-]
-Cap\'{\i }tulo 2.
-[5])
+l.80 \clearpage
+                [2])
 \openout2 = `Metodologia/Metodologia.aux'.
 
- (Metodologia/Metodologia.tex [6
+ (Metodologia/Metodologia.tex
+Cap\'{\i }tulo 2.
+[3
 
 
 
 
 
-]
-Cap\'{\i }tulo 3.
-[7] [8] [9]
-Package pdftex.def Info: Option `bb' equivalent to `viewport' with the pdftex d
-river on input line 52.
-Package epstopdf Info: Source file: <Resultados/Figuras/ciclodesenvolvimento.ep
-s>
-(epstopdf)                    date: 2005-06-03 09:43:00
-(epstopdf)                    size: 1022324 bytes
-(epstopdf)             Output file: <Resultados/Figuras/ciclodesenvolvimento-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2023-08-21 10:13:12
-(epstopdf)                    size: 49981 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Resultados/Figuras/c
-iclodesenvolvimento-eps-converted-to.pdf Resultados/Figuras/ciclodesenvolviment
-o.eps>
-(epstopdf)             \includegraphics on input line 52.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./Resultados/Figuras/ciclodesenvolvimento-ep
-s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
-n <1.5> allowed
-<Resultados/Figuras/ciclodesenvolvimento-eps-converted-to.pdf, id=266, 302.1287
-5pt x 259.97125pt>
-File: Resultados/Figuras/ciclodesenvolvimento-eps-converted-to.pdf Graphic file
- (type pdf)
-<use Resultados/Figuras/ciclodesenvolvimento-eps-converted-to.pdf>
-Package pdftex.def Info: Resultados/Figuras/ciclodesenvolvimento-eps-converted-
-to.pdf  used on input line 52.
-(pdftex.def)             Requested size: 264.98999pt x 221.82874pt.
-Package epstopdf Info: Source file: <Metodologia/Figuras/ciclodesenvolvimento.e
-ps>
-(epstopdf)                    date: 2005-06-03 09:43:00
-(epstopdf)                    size: 1022324 bytes
-(epstopdf)             Output file: <Metodologia/Figuras/ciclodesenvolvimento-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2023-08-21 10:13:14
-(epstopdf)                    size: 49981 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Metodologia/Figuras/
-ciclodesenvolvimento-eps-converted-to.pdf Metodologia/Figuras/ciclodesenvolvime
-nto.eps>
-(epstopdf)             \includegraphics on input line 73.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./Metodologia/Figuras/ciclodesenvolvimento-e
-ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
-on <1.5> allowed
-<Metodologia/Figuras/ciclodesenvolvimento-eps-converted-to.pdf, id=268, 302.128
-75pt x 259.97125pt>
-File: Metodologia/Figuras/ciclodesenvolvimento-eps-converted-to.pdf Graphic fil
-e (type pdf)
-<use Metodologia/Figuras/ciclodesenvolvimento-eps-converted-to.pdf>
-Package pdftex.def Info: Metodologia/Figuras/ciclodesenvolvimento-eps-converted
--to.pdf  used on input line 73.
-(pdftex.def)             Requested size: 362.55267pt x 311.96393pt.
-[10] [11 <./Resultados/Figuras/ciclodesenvolvimento-eps-converted-to.pdf>]
-[12 <./Metodologia/Figuras/ciclodesenvolvimento-eps-converted-to.pdf>])
+] [4] [5] [6])
 \openout2 = `Resultados/Resultados.aux'.
 
-
-(Resultados/Resultados.tex
-Cap\'{\i }tulo 4.
+ (Resultados/Resultados.tex
+Cap\'{\i }tulo 3.
 Package epstopdf Info: Source file: <Resultados/Figuras/ciclodesenvolvimento.ep
 s>
 (epstopdf)                    date: 2005-06-03 09:43:00
@@ -672,30 +596,38 @@ iclodesenvolvimento-eps-converted-to.pdf Resultados/Figuras/ciclodesenvolviment
 o.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Resultados/Figuras/ciclodesenvolvimento-ep
+s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+<Resultados/Figuras/ciclodesenvolvimento-eps-converted-to.pdf, id=219, 302.1287
+5pt x 259.97125pt>
 File: Resultados/Figuras/ciclodesenvolvimento-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Resultados/Figuras/ciclodesenvolvimento-eps-converted-to.pdf>
 Package pdftex.def Info: Resultados/Figuras/ciclodesenvolvimento-eps-converted-
 to.pdf  used on input line 20.
 (pdftex.def)             Requested size: 362.55267pt x 311.96393pt.
-[13
+[7
 
 
 
 
 
-] [14] [15] [16])
+] [8 <./Resultados/Figuras/ciclodesenvolvimento-eps-converted-to.pdf>]
+[9] [10])
 \openout2 = `Conclusao/Conclusao.aux'.
 
  (Conclusao/Conclusao.tex
-Cap\'{\i }tulo 5.
-[17
+Cap\'{\i }tulo 4.
+[11
 
 
 
 
 
-]) (Monografia.bbl [18
+]) (Monografia.bbl [12
 
 
 
@@ -712,23 +644,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--20
 ]remix-[]ai-[]tech$[][]\T1/ptm/m/n/10.95 .
  []
 
-) [19] (Monografia.aux (Capa/capa.aux) (Resumo/Resumo.aux)
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+3.
+(C:\Users\kayke\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))
+[13] (Monografia.aux (Capa/capa.aux) (Resumo/Resumo.aux)
 (Agradecimentos/Agradecimentos.aux) (TabelaConteudo/TabelaConteudo.aux)
 (ListaFiguras/ListaFiguras.aux) (ListaTabelas/ListaTabelas.aux)
-(Introducao/Introducao.aux) (DescricaoProcesso/DescricaoProcesso.aux)
-(Metodologia/Metodologia.aux) (Resultados/Resultados.aux)
-(Conclusao/Conclusao.aux))
+(Introducao/Introducao.aux) (Metodologia/Metodologia.aux)
+(Resultados/Resultados.aux) (Conclusao/Conclusao.aux))
 Package rerunfilecheck Info: File `Monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 99AEDCFC6E7204C0ECDCAEEB07BECF2F;5304.
+(rerunfilecheck)             Checksum: 31ADA5504807CEEFF884E8B869C49B14;4025.
  ) 
 Here is how much of TeX's memory you used:
- 11600 strings out of 476331
- 194747 string characters out of 5787765
+ 11539 strings out of 476331
+ 192424 string characters out of 5787765
  1866660 words of memory out of 5000000
- 31663 multiletter control sequences out of 15000+600000
- 548075 words of font info for 80 fonts, out of 8000000 for 9000
+ 31624 multiletter control sequences out of 15000+600000
+ 547761 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,1949b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,1949b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/kayke/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi12.pfb><C:/Users/kayke/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Users/kayke/AppData/Local/Programs/MiKTeX/fonts/type1/ur
@@ -737,9 +673,9 @@ urw/times/utmb8a.pfb><C:/Users/kayke/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/kayke/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/kayke/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on Monografia.pdf (31 pages, 265944 bytes).
+Output written on Monografia.pdf (25 pages, 206729 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
