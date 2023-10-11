@@ -7,3 +7,5 @@ db = MoisesDB(
 
 n_songs = len(db)
 track = db[0]
+stems = track.stems
+print(stems.keys())
