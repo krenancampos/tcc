@@ -1,7 +1,0 @@
-# sox
-# nussl
-# common
-# git+https://github.com/source-separation/tutorial
-# matplotlib==3.7
-# librosa==0.8.1
-# numpy==1.23.5
